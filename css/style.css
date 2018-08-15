@@ -1,0 +1,210 @@
+body{
+  width: 1200px;
+  margin: 0 auto 0 auto;
+}
+
+header{
+}
+
+header .eurocasa-logo{
+  margin: 50px auto 35px 0;
+  width: 450px;
+}
+
+header nav ul{
+  width: 100%;
+  padding: 0;
+}
+
+header nav ul li{
+  display: inline;
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+header nav ul li a:hover{
+  color: #64a68f;
+}
+
+.secA .secAimg{
+  margin: 35px 0 0 0;
+  width: 1200px;
+}
+
+.secA .secAimg img{
+  width: 100%;
+}
+
+.secA .secAtxt{
+  width: 380px;
+  margin: 0 0 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.secA .secAtxt h1{
+  margin: 10px 0 10px 0;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.secA .secAtxt p{
+  margin: 0 0;
+  color: #989898;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.secB{
+  margin: 10px 0 10px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.secB .img01{
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+.secB .img01 img{
+  width: 100%;
+}
+
+.secB .img02{
+  grid-column: 3/5;
+  grid-row: 1;
+  position: relative;
+}
+
+.secB .img02 img{
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.secB .img03{
+  grid-column: 2;
+  grid-row: 2;
+  position: relative;
+}
+
+.secB .img03 img{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.secB .img04{
+  grid-column: 3/5;
+  grid-row: 2;
+}
+
+.secB .img04 img{
+  width: 100%;
+}
+
+.secB .img05{
+  grid-column: 1/3;
+  grid-row: 3;
+}
+
+.secB .img05 img{
+  width: 100%;
+}
+
+.secB .img06{
+  grid-column: 3/5;
+  grid-row: 3;
+  position: relative;
+}
+
+.secB .img06 img{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.secB .img07{
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.secB .img07 img{
+  width: 100%;
+}
+
+.secB .img08{
+  grid-column: 3/5;
+  grid-row: 4;
+}
+
+.secB .img08 img{
+  width: 100%;
+}
+
+.secB .img09{
+  grid-column: 1/5;
+  grid-row: 5;
+}
+
+.secB .img09 img{
+  width: 100%;
+}
+
+.secB .img10{
+  grid-column: 1/3;
+  grid-row: 6;
+}
+
+.secB .img10 img{
+  width: 100%;
+}
+
+.secB .img11{
+  grid-column: 3/5;
+  grid-row: 6;
+}
+
+.secB .img11 img{
+  width: 100%;
+}
+
+footer{
+  margin: 20px 0;
+  padding: 20px 0 15px 0;
+  border-top: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c9c9c9;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+footer .eurocasa-logo2{
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+footer .eurocasa-logo2 img{
+  width: 100%;
+}
+
+footer .footer01{
+  margin: 0;
+  padding-left: 10px;
+  grid-column: 2/6;
+  grid-row: 1/3;
+  font-size: 10px;
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: 1.6em;
+}
