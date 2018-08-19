@@ -37,7 +37,7 @@ header nav ul li a{
   color: #000;
 }
 
-header nav ul li .productsBtn{
+header nav ul li .showroomBtn{
   color: #989898;
 }
 
@@ -48,58 +48,32 @@ header nav ul li a:hover{
 .secA{
   width: 1200px;
   margin: 0 auto 0 auto;
-  padding-bottom: 150px;
 }
 
-.secA .categoryNav{
-  position: relative;
+.secA .map{
+  margin: 25px 0 0 0;
+  width: 1200px;
 }
 
-.secA .categoryNav ul{
-  position: fixed;
-  top: 190px;
-  width: 100px;
-  margin: 0;
-  padding: 0;
-  border-left: 1px solid #000;
-}
-
-.secA .categoryNav ul li{
-  padding-left: 10px;
-  list-style: none;
-  font-size: 14px;
+.secA .secAtxt{
+  width: 595px;
+  margin: 0 auto 0 0;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  line-height: 2em;
 }
 
-.secA .categoryNav ul li a{
-  text-decoration: none;
-  color: #000;
+.secA .secAtxt h1{
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.secA .categoryNav ul li a:hover{
+.secA .secAtxt p{
+  margin: 0 0;
   color: #989898;
-}
-
-.secA .categoryNav ul .allBtn{
-  color: #989898;
-}
-
-.secA .productList{
-  margin-left: 100px;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-}
-
-.secA .productList div{
-
-}
-
-.secA .productList div img{
-  width: 100%;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5em;
 }
 
 footer{
