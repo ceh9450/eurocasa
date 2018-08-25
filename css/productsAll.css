@@ -94,12 +94,821 @@ header nav ul li a:hover{
   grid-gap: 10px;
 }
 
-.secA .productList div{
-
+.secA .productBox{
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+  height: 0;
 }
 
-.secA .productList div img{
+.secA .productBox a{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  height: auto;
+}
+
+.secA .textBox h2{
+  margin: 0;
+  padding-top: 25px;
+  padding-left: 30px;
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.secA .textBox p{
+  display: block;
+  margin: 0;
+  padding-top: 175px;
+  padding-left: 30px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+.secA .greyBox{
+  display: none;
+}
+
+.secA .productImg001{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/luxurySide.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg001:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg002{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/portfolioSide01.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg002:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg003{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/classFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg003:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg004{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/metropolitanFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg004:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg005{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/monopolyFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg005:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg006{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/flySide.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg006:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg007{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/palaceFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg007:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg008{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/healingSide.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg008:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg009{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/tripleFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg009:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg010{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/broadwayFront01.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg010:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg011{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/vividFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg011:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg012{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/wellbeingFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg012:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg013{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/leonardoFront01.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg013:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg014{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/castellaFront01.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg014:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg015{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/boxterFabricFront01.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg015:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg016{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/boxterFront01.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg016:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg017{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/hollywoodFabricFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg017:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg018{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/hollywoodFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg018:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg019{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/w3100Front.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg019:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg020{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/casablancaFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg020:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg021{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/squareFront01.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg021:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg022{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/slimFront01.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg022:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg023{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/holidayFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg023:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg024{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/castella3pFront01.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg024:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg025{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/woodholicFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg025:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg026{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/loftFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg026:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg027{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/bestFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg027:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg028{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/a157Front01.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg028:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg029{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/newslim3pFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg029:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg030{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/newslim2pFront.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg030:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.secA .productImg031{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/products/wingFront01.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.secA .productImg031:hover a > .greyBox{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .25);
 }
 
 footer{
